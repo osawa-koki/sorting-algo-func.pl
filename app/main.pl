@@ -5,6 +5,7 @@ require "bubble_sort.pl";
 require "selection_sort.pl";
 require "insertion_sort.pl";
 require "merge_sort.pl";
+require "quick_sort.pl";
 
 my @array = (0, 1, 2, 3, 4, 5, 6, 7, 8, 9);
 
@@ -21,3 +22,6 @@ Display("Insertion Sort", InsertionSort(@array));
 
 Display("Shuffled", Shuffle(@array));
 Display("Merge Sort", MergeSort(@array));
+
+Display("Shuffled", Shuffle(@array));
+Display("Quick Sort", QuickSort(@array));
