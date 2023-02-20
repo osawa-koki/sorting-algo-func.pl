@@ -6,6 +6,7 @@ require "selection_sort.pl";
 require "insertion_sort.pl";
 require "merge_sort.pl";
 require "quick_sort.pl";
+require "heap_sort.pl";
 
 my @array = (0, 1, 2, 3, 4, 5, 6, 7, 8, 9);
 
@@ -25,3 +26,6 @@ Display("Merge Sort", MergeSort(@array));
 
 Display("Shuffled", Shuffle(@array));
 Display("Quick Sort", QuickSort(@array));
+
+Display("Shuffled", Shuffle(@array));
+Display("Heap Sort", HeapSort(@array));
